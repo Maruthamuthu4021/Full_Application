@@ -17,3 +17,7 @@ def send_css(path):
 def send_image(path):
     return send_from_directory('static/images', path)
 
+
+@static.route('/library/<path:path>')
+def send_library(path):
+    return send_from_directory('static/library', path)

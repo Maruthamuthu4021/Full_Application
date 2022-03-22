@@ -1,7 +1,6 @@
 #tables-row{
      color: aliceblue;
     display: flex;
-    width: 100%;
     flex-wrap: wrap;
     font-weight: bold;
     align-content: space-between;
